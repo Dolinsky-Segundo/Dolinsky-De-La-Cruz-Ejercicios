@@ -3,11 +3,11 @@ Crea un script que pida al usuario el diámetro de una rueda y su grosor (en met
 y a través de condicionales if realice las siguientes operaciones:
 */
 
-let var1 = window.prompt("Introduzca un valor para el diametro de la rueda");
-console.log("Diametro:", var1,"M");
+let var1 = window.prompt("Introduzca un valor para el diámetro de la rueda.");
+console.log("Diámetro:", var1,"M.");
 
-let var2 = window.prompt("Introduzca un valor para el grosor de la rueda");
-console.log("Grosor:", var2,"M");
+let var2 = window.prompt("Introduzca un valor para el grosor de la rueda.");
+console.log("Grosor:", var2,"M.");
 
 // condición diámetro
 /*
@@ -17,14 +17,14 @@ mediano”. Si no se cumplen ninguna de las condiciones anteriores debe mostrars
 “La rueda es para un vehículo pequeño”.
 */
 if (var1 > 1.4){
-    console.log("La rueda es para un vehículo grande");
+    console.log("La rueda es para un vehículo grande.");
 } 
 else {
     if (var1 <= 1.4 && var1 > 0.8){
-        console.log("La rueda es para un vehiculo mediano");
+        console.log("La rueda es para un vehículo mediano.");
     }
     else{
-        console.log("La rueda es para un vehiculo pequeño");
+        console.log("La rueda es para un vehículo pequeño.");
     }
 }
 
@@ -35,5 +35,5 @@ pero mayor que 0.8, con un grosor inferior a 0.25, deberá mostrarse el mensaje 
 rueda es inferior al recomendado” 
 */
 if (var1 > 1.4, var2 < 0.4 || var1 <= 1.4 && var1 >0.8, var2 < 0.25){
-    console.log("El grosor de esta rueda es inferior al recomendado");
+    console.log("El grosor de esta rueda es inferior al recomendado.");
 }
