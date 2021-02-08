@@ -29,7 +29,8 @@ else {
 }
 
 //condición grosor
-/*b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4, ó si el diámetro es menor o igual a 1.4
+/*
+b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4, ó si el diámetro es menor o igual a 1.4
 pero mayor que 0.8, con un grosor inferior a 0.25, deberá mostrarse el mensaje “El grosor para esta 
 rueda es inferior al recomendado” 
 */
