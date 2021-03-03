@@ -1,0 +1,15 @@
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: black;
+}
+
+.form{
+    border-color: black;
+}
+
+.list{
+    border-color: black;
+    border-radius: 40%;
+}
+
